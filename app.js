@@ -34,7 +34,7 @@ summonBtn.addEventListener("click", () => {
     let randomStudent = randomizeData(students);
 
     if (lastGenerated !== null) { // this adds to the list after 
-      const prevName = `${lastGenerated.firstName} ${lastGenerated.lastName}`; // Back tick will keep the code displayed exactly how you type it so need for the + " " just use the back tick and add space like a doc
+      const prevName = `${lastGenerated.firstName} ${lastGenerated.lastName} | ${lastGenerated.csemail} | ${lastGenerated.email}`; // Back tick will keep the code displayed exactly how you type it so need for the + " " just use the back tick and add space like a doc
       
       
       previousFive.unshift(prevName); //unshift is the oppisite of push it basically send all the new arrays to the front instead of just pusing old ones to the back
